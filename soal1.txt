@@ -1,0 +1,28 @@
+1. Perbedaan Persebaran Nilai Keabuan
+
+Citra Asli
+	Distribusi normal sesuai gambar
+	Bisa dominan gelap / terang tergantung gambar
+Negatif
+	Histogram terbalik dari citra asli
+	Nilai rendah jadi tinggi, dan sebaliknya
+Logaritmik
+	Nilai gelap (rendah) diperluas
+	Nilai terang dipadatkan
+	Detail di area gelap lebih terlihat
+
+
+
+2. Kapan Logaritmik Lebih Baik dari Negatif?
+
+Transformasi logaritmik lebih bermanfaat ketika:
+	Gambar terlalu gelap
+	Banyak detail tersembunyi di area gelap
+Contoh:
+	Foto malam hari
+	Citra medis (X-ray)
+	Gambar dengan kontras rendah
+
+Sedangkan negatif lebih cocok untuk:
+	Efek visual
+	Analisis tertentu (misal membaca teks terang di background gelap)

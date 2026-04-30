@@ -1,0 +1,25 @@
+Perbandingan Visual
+*LPF (Low Pass Filter)
+	Gambar menjadi lebih halus dan blur. Noise berkurang, tetapi detail kecil juga ikut hilang.
+*HPF (High Pass Filter)
+	Menampilkan tepi objek dengan jelas. Area non-tepi menjadi gelap, sehingga hanya bagian kontur yang 	terlihat.
+*BPF (Sharpening)
+	Gambar terlihat lebih tajam dibandingkan citra asli. Detail objek lebih menonjol tanpa menghilangkan 	informasi utama.
+
+Perbandingan Nilai Rata-rata Pixel
+LPF → Nilai rata-rata cenderung mendekati citra asli karena smoothing
+HPF → Nilai rata-rata biasanya lebih kecil (banyak area gelap)
+BPF → Nilai rata-rata mirip atau sedikit lebih tinggi dari asli karena penajaman
+
+
+
+Hubungan Domain Spasial & Frekuensi
+LPF (Low Pass Filter)
+	Spasial: smoothing / blur
+	Frekuensi: melewatkan frekuensi rendah, menahan frekuensi tinggi
+HPF (High Pass Filter)
+	Spasial: deteksi tepi
+	Frekuensi: melewatkan frekuensi tinggi (detail), membuang frekuensi rendah
+BPF (Band Pass Filter)
+	Spasial: penajaman
+	Frekuensi: melewatkan frekuensi tertentu (kombinasi rendah & tinggi)
